@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.CountryList a {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  border-bottom: 1px solid grey;
+  width: 100%;
+  padding: 1em;
+}
+
+.CountryList {
+  border: 1px solid grey;
+  border-radius: 1em;
+}
+
+nav {
+  background-color: #047afb;
+  margin-bottom: 1em;
+}
+
+nav a {
+  margin-left: 4.5em;
+  color: white;
+  font-size: 2em;
+  display: flex;
+  align-self: start;
+}
+
+nav a:hover {
+  color: white;
+}
+
+.CountryDetails h1 {
+  margin-bottom: 1em;
+  text-align: start;
+  margin-left: 0.5em;
+}
